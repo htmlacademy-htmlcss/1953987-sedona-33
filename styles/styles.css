@@ -106,8 +106,6 @@ body {
   margin-right: 30px;
 }
 
-
-
 .navigation-list {
   margin: 0;
   padding: 0;
@@ -256,7 +254,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .page-footer {
   color: #000000;
   background-color: #ffffff;
@@ -276,8 +273,11 @@ body {
   background-color: #ffffff;
 }
 
-.page-footer-inner .mailing-list {
+.mailing-list-inner {
   color: #000000;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .htmlacademy {
@@ -294,6 +294,7 @@ body {
   background-image: url("../images/background-footer.jpg");
   background-size: 1200px auto;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .page-footer-title {
@@ -338,9 +339,19 @@ body {
   text-decoration: none;
 }
 
+/* .hotel-catalog {
+  display: flex;
+} */
+
+.catalog-filter {
+  display: flex;
+}
+
+
 .catalog-filter-title {
   font-size: 20px;
   line-height: 26px;
+  font-weight: bold;
 
 }
 
@@ -354,6 +365,7 @@ body {
   line-height: 39px;
   font-weight: bold;
 }
+
 
 .hotels-card-link {
   text-decoration: none;
@@ -387,4 +399,10 @@ body {
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+}
+
+
+.catalog-right-column {
+  width: 1056px;
+  margin: 0 auto;
 }
