@@ -155,7 +155,11 @@ body {
   margin: 0 auto;
 }
 
-
+.advantages-item {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
 
 .advantages-real-town {
   text-align: center;
