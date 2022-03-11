@@ -156,8 +156,9 @@
 
       <section class="hotel-search">
         <h2 class="hotel-search-title">Заинтересовались?</h2>
-        <p class="hotel-search-description">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие
-          предложения гостиниц в Седоне</p>
+        <p class="hotel-search-description">Укажите предполагаемые даты поездки, <br><span class="travel-dates"> и мы
+            покажем вам лучшие
+            предложения гостиниц в Седоне</span></p>
         <a class="button button-all" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
       </section>
 
@@ -168,7 +169,7 @@
         <form class="mailing-list-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="mailing-list-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="mailing-list-email" id="mailing-list-email"
-            pattern>
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -246,7 +247,7 @@
   </footer>
   <div class="modal-container modal-container-close">
     <div class="modal modal-search">
-      <button class="modal-close-button">
+      <button class="modal-close-button" type="button">
         <span class="visually-hidden">Закрыть</span>
       </button>
       <section class="modal-content">
@@ -268,8 +269,8 @@
             <label class="adults-form" for="adults">Взрослые:</label>
             <input class="adults-form-field" id="adults" type="text" name="adults" value="2">
 
-            <button class="button-min" type="submit"></button>
-            <button class="button-max" type="submit"></button>
+            <button class="button-min" type="button"></button>
+            <button class="button-max" type="button"></button>
             <span class="children-form form-label-icon">
               <label class="children-form" for="children">Дети:</label>
               <span class="tooltip">
@@ -295,8 +296,8 @@
             </span>
             <input class="children-form-field" id="children" type="text" name="children" value="1">
 
-            <button class="button-min-children" type="submit"></button>
-            <button class="button-max-children" type="submit"></button>
+            <button class="button-min-children" type="button"></button>
+            <button class="button-max-children" type="button"></button>
           </p>
           <a class="button button-found" href="#">Найти</a>
         </form>
