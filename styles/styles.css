@@ -473,8 +473,8 @@ img {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
-  margin-top: 62px;
-  margin-bottom: 83px;
+  margin-top: 64px;
+  margin-bottom: 81px;
 }
 
 .advantages-white {
@@ -645,6 +645,10 @@ img {
   line-height: 26px;
   width: 710px;
   text-align: center;
+}
+
+.travel-dates {
+  margin-left: -15px;
 }
 
 .page-footer {
@@ -1482,7 +1486,7 @@ img {
   color: #ffffff;
   background-color: #000000;
   background-image: url("../images/catalog-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 35px;
   padding-bottom: 11px;
